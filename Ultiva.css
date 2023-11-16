@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.side-img{
+    object-fit: contain;
+    margin-bottom: 80px;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.subHeader{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+.hoe{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.button{
+    display: block;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #fbaf1b;
+    background-color:  #fbaf1b;
+}
+.cta{
+    display: block;
+padding: 15px 20px;
+border-radius: 10px;
+border: 1px solid blue;
+background-color: white;
+margin-left: 10px;
+}
+.ButtonSection{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+/*Hero Section*/
+.hero{
+    background-color: #F8FAFF;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subHero{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subsubHero1{
+    width: 50%;
+    height: 100%;
+}
+.subsubHero2{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subsubHero2 img{
+    width: 70%;
+}
+.subButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border: 1px solid #fbaf1b;
+    border-radius: 10px;
+    background-color: hsl(40, 97%, 55%);
+    padding: 0px 15px;
+    cursor: pointer;
+
+}
+.subButtons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border: 1px solid #fbaf1b;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 15px;
+    cursor: pointer;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.text{
+    color: blue;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.text2{
+    color: blue;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+/*Hero Section Ends Here!*/
+
+/*Main Body*/
+.mainBody{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.subMain{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+}
+.sub-main2{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 43px;
+}
+.cta2{
+    display: block;
+    padding: 10px 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: #22B26E;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.mainArrow{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.box-shadow:hover{
+border: 1px solid orange;
+}
+.mainBody2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.subMainBody{
+    margin-left: 30px;
+}
+
+.impactSection{
+    width: 100%;
+    height: 100%;
+
+}
+.pictureMain{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.subpictureMain{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lifeLong-Section{
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+}
+.lifelongSub{
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.img-background{
+    width: 93%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subImage{
+ border: 1px solid green;
+ background-color: white;
+ border-radius: 10px;
+ display: block;
+ position: absolute;
+ padding: 5px 10px;
+ overflow: hidden;
+ top: 8%;
+ left: 6%;
+}
+.subImage1{
+    background-image: url(./images/bootcamp2.webp);
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+.subImage2{
+    background-image: url(./images/bootampschool1.webp);
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+.subImageTwo{
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    padding: 5px 10px;
+    overflow: hidden;
+    top: 8%;
+    left: 6%;
+   }
+.subImage3{
+    background-image: url(./images/bootcamp3.webp);
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+.subImageThree{
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    padding: 5px 10px;
+    overflow: hidden;
+    top: 8%;
+    left: 6%;
+   }
+.mainSub:hover .subImage1{
+transform: scale(1.1);
+filter: grayscale(0%);
+}
+.mainSub1:hover .subImage2{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.mainSub2:hover .subImage3{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.bolt{
+    color: orange;
+}
+.subImage1 img{
+    position: relative;
+}
+.text3{
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.mainArrow2{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.lifelong-extention{
+    width: 100%;
+    height: 130%;
+}
+/*Main Body Ends here*/
+/*Learn Section*/
+.learnSection{
+    width: 100%;
+    height: 90%;
+    background-image: url(./images/map.webp);
+    background-position: center;
+    background-size: contain;
+    background-color: #000269;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.learn{
+    color: orange;
+    font-weight: 800;
+}
+.myh5 h5{
+    font-size: 25px;
+    font-weight: 800;
+}
+/*Learn Section Ends Here*/
+/*Acelerate Section*/
+.AccelerateSection{
+    height: 130%;
+    width: 100%;
+    background-color: #000269;
+}
+.thinkIt{
+    color: #87CED9;
+}
+.becomeIt{
+    color: #EFB22F;
+}
+.with{
+    color: #95AB3A;
+}
+.Utiva{
+color: #95AB3A;
+}
+.text5{
+    color: white;
+    font-size: 15px;
+}
+.ctat{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+.text6{
+    color: rgb(185, 185, 0);
+    font-size: 14px;
+    margin-left: 10px;
+}
+.logo-image{
+    margin-left: 35px;
+}
+/*Acelerate Section Ends Here*/
+
+
